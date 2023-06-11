@@ -25,6 +25,48 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Algum título</h1>
+    <!-- INICIO NAVBAR menu-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+        <div class="container py-3">
+            <a href="#" class="navbar-brand">
+                <img src="img/imovi-icon.png" alt="iMovi">
+                <span>iMovi</span>
+            </a>
+            <!-- botão de hamburguer mobile -->
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse"
+                data-bs-target="#navbar-items"
+                aria-controls="navbar-items"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+
+                <i class="bi bi-list"></i>
+            
+            </button>
+
+            <!-- itens do botão de hamburguer mobile -->
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav me-auto mb-2 mg-lg-0">
+                    <li class="nav item">
+                        <a href="#" class="nav-link active" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav item">
+                        <a href="#" class="nav-link">Projetos</a>
+                    </li>
+                    <li class="nav item">
+                        <a href="#" class="nav-link">Imóveis</a>
+                    </li>
+                    <li class="nav item">
+                        <a href="#" class="nav-link">Contatos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- FIM NAVBAR menu-->
+
+    <!-- SLIDER-->
 </body>
 </html>

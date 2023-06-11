@@ -1,3 +1,26 @@
-h1{
-    color: red;
+*{
+    font-family: 'Lato', sans-serif;
 }
+
+/*cores do site*/
+.bg-primery-color{
+    background-color: #fff;
+}
+
+.bg-secondary-color{
+    background-color: #ece8ea;
+}
+
+.bg-dark-color{
+    background-color: #050505;
+}
+
+.primery-color{
+    color: #050505;
+}
+
+.secondary-color{
+    color: #7a7a7a;
+}
+
+/*NAVBAR*/
