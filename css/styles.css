@@ -100,7 +100,7 @@
     background-color: #000;
 }
 
-/*RESPONSIVIDADE DESKTOP*/
+/*RESPONSIVIDADE slider*/
 @media(min-width: 768px){
     #slider .carousel-caption{
         bottom: 15em;
@@ -142,7 +142,7 @@
     padding: 0.6em 1.2em;
 }
 
-/*RESPONSIVIDADE*/
+/*RESPONSIVIDADE mini-banners*/
 @media(min-width: 768px){
     #mini-banners{
         margin-top: -6em;
@@ -205,5 +205,31 @@
     }
     #featured-images .banner-content{
         opacity: 0;
+    }
+}
+
+/*INFO*/
+#info-content{
+    margin-bottom: 4em;
+    padding: 4em 1em;
+}
+
+#info-numbers{
+    margin: 1.5em 0;
+}
+
+#info-banenr{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+
+#info-numbers h3{
+    font-size: 3em;
+}
+
+@media(min-width: 768px){
+    #info-content{
+        padding: 3.5em;
     }
 }
